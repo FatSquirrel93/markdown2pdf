@@ -1,0 +1,1 @@
+DROP TABLE IF EXISTS m2pdf_report;

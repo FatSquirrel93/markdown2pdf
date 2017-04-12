@@ -1,0 +1,6 @@
+liquibase.changeLog = classpath:liquibase/db-changelog.xml
+
+m2pdf.database.url=jdbc:postgresql://localhost:5432/m2pdf
+m2pdf.database.username=ENTER_USERNAME
+m2pdf.database.password=ENTER_PASSWORD
+m2pdf.database.driver=org.postgresql.Driver
