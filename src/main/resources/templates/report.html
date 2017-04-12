@@ -22,8 +22,11 @@
 					<div class="row">
 						<div class="col-md-12">
 							<div class="form-group">
-								<textarea class="form-control textarea" ng-model="report.markdown" rows="3" name="Message" id="Message"
-									placeholder="Message"></textarea>
+								<textarea name="editor1" class="content-box" ng-model="report.markdown"
+									markdown-editor="{ addExtraButtons: true, resize: 'vertical'}" on-fullscreen="onFullScreenCallback()"
+									on-fullscreen-exit="onFullScreenExitCallback()" rows="10">
+    					</textarea>
+
 							</div>
 						</div>
 					</div>
@@ -41,14 +44,14 @@
 		<div class="col-md-12 column" ng-controller="ReportListController">
 			<div class="row clearfix list-panel-margin">
 				<div class="col-md-3 column" ng-click="select(report)" ng-repeat="report in reports">
-				
-				<div class="panel panel-default" >
-					<div class="panel-body">
-						<h2>{{report.description}}</h2>
-						<p>{{report.markdown}}</p>
+
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<h2>{{report.description}}</h2>
+							<p marked="report.markdown" ></p>
+						</div>
 					</div>
-				</div>
-				
+
 				</div>
 			</div>
 		</div>
