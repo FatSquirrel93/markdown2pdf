@@ -1,0 +1,1 @@
+var app = angular.module('m2pdfModule', []);

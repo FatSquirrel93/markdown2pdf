@@ -1,0 +1,17 @@
+body {
+	padding-top: 50px;
+}
+
+.starter-template {
+	padding: 40px 15px;
+}
+
+.input-md {
+	max-width: 200px;
+}
+
+.list-panel-margin {
+	margin-right: -30px;
+    margin-left: -30px;
+}
+

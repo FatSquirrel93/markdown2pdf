@@ -3,5 +3,5 @@ CREATE TABLE m2pdf_report
 (
  	id UUID PRIMARY KEY,
   	markdown text NOT NULL,
-  	note text
+  	description text
 );

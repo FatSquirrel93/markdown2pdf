@@ -1,0 +1,1 @@
+app.constant('API_PATH_REPORTS', application_context.api_url_reports);
